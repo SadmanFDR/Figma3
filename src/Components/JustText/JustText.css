@@ -1,0 +1,36 @@
+.Sadman_justText{
+   @apply lg:mt-[300px] mt-20 py-4
+}
+.flex_Text{
+   @apply flex flex-col
+}
+.first_One h2{
+   @apply text-[20px] lg:text-[30px] font-Agbalumo font-bold
+}
+.secend_one p{
+   @apply w-full lg:w-[480px] font-serif text-[16px] font-medium mb-6 lg:mb-[80px] mt-3 lg:mt-4
+}
+.secend_one{
+   @apply flex justify-between flex-wrap items-center 
+}
+.secend_big_link {
+   @apply flex gap-2 bg-[#E85C0D] items-center px-3 text-[#fff] justify-center hover:text-[#000] rounded-lg transition-all duration-300 hover:bg-[#FF9900] py-2
+}
+.third_one p{
+   @apply w-full lg:w-[480px] font-serif text-[16px] font-medium mb-6 lg:mb-[32px] mt-3 lg:mt-4
+}
+.fourth_one{
+   @apply flex flex-wrap justify-between gap-4
+}
+.single_fourth{
+   @apply flex flex-col gap-3 lg:gap-5
+}
+.single_fourth h3{
+   @apply font-semibold font-Agbalumo text-[18px] lg:text-[20px] w-full lg:w-[360px]
+}
+.single_fourth p{
+   @apply w-full lg:w-[350px] font-serif text-[16px] font-medium 
+}
+.single_fourth .fourth_big_link{
+   @apply flex gap-2 items-center text-[#E85C0D]   hover:text-orange-800 transition-all duration-300 
+}

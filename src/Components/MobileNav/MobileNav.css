@@ -1,0 +1,25 @@
+.mobile_nav{
+   @apply block lg:hidden mt-6
+}
+.show_value{
+   @apply w-[250px] bg-[#7E99A3] rounded-lg px-3 py-3 flex gap-4 flex-col 
+}
+.main_mobile_res{
+   @apply flex justify-between items-center mb-4
+}
+.menu_link_mobile{
+   @apply flex gap-3 w-full rounded-lg bg-[#E85C0D] justify-center items-center py-2 
+}
+
+.menu_link_mobile a{
+   @apply text-[#fff] hover:text-[#000] duration-300 transition-all text-[16px] font-Agbalumo
+}
+.mob_ul li{
+   @apply flex gap-2 justify-start items-center
+}
+.mob_ul{
+   @apply gap-3 flex flex-col
+}
+.mob_ul li a{
+   @apply font-Agbalumo font-semibold text-[16px]
+}

@@ -1,0 +1,84 @@
+.banner_top{
+   @apply lg:mt-[90px] mt-10
+}
+.first_part{
+   @apply flex flex-wrap justify-between
+}
+.fot_text{
+   @apply flex flex-col gap-5 lg:mt-[180px] lg:mb-[100px]
+}
+.fot_text p{
+   @apply w-full lg:w-[470px] font-serif text-[16px] font-medium
+} 
+.fot_text h2{
+   @apply text-[20px] lg:text-[30px] font-Agbalumo font-bold
+}
+.first_part img{
+   @apply w-full lg:hidden mt-10 mb-6
+}
+.two_part .for_text p{
+   @apply w-full lg:w-[520px] font-serif text-[16px] font-medium mt-3 lg:mt-4
+} 
+.secend_part{
+   @apply bg-[#0000001a] py-4
+}
+.ekflex{
+   @apply py-2 bg-[#E85C0D] px-6 flex gap-2 w-[200px] items-center
+     justify-center text-white rounded-lg hover:text-black transition-all duration-300
+}
+.two_part .for_text h3{
+ @apply font-bold font-Agbalumo text-[19px] lg:text-[28px]
+}
+.two_part{
+   @apply flex justify-between
+}
+.two_part img{
+   @apply  w-full lg:w-[590px] lg:mt-[-550px] h-[750px] hidden lg:block
+}
+.for_text{
+   @apply lg:mt-[170px] mt-8
+}
+.single_card .all_card{
+  @apply flex flex-col gap-3 lg:gap-6 justify-center items-center w-full lg:w-[312px]
+}
+.single_card .all_card img{
+   @apply w-full lg:w-[312px]
+}
+.single_card .all_card p{
+   @apply w-full lg:w-[310px]  font-serif text-[16px] font-medium mt-3 lg:mt-4
+}
+.single_card .all_card h4{
+   @apply lg:text-[20px] text-[18px] font-semibold font-serif
+}
+.single_card .all_card .ek_link{
+   @apply py-2 hover:bg-[#E85C0D] px-6 flex gap-2 w-[200px] items-center text-[#E85C0D]
+   justify-center hover:text-white rounded-lg transition-all duration-300 
+}
+.single_card{
+   @apply flex flex-wrap justify-between mt-10
+}
+
+
+/* ===============================        big cards */
+.big_cards{
+   @apply bg-[#263640] lg:pl-[60px] lg:pb-[60px] lg:pt-[90px] w-full lg:w-[1000px] lg:mb-[-100px] rounded-md lg:mt-[160px] mt-10
+}
+
+.big_cards .text_big p{
+   @apply w-full lg:w-[470px] text-white font-serif text-[16px] font-medium lg:mt-6 lg:mb-6 mt-4 mb-4
+}
+.big_cards .text_big{
+   @apply text-[20px] lg:text-[30px] font-Agbalumo font-semibold w-full lg:w-[470px] text-white px-2 py-2
+}
+.big_cards{
+   @apply flex justify-between flex-wrap 
+}
+.big_link {
+   @apply flex gap-2 items-center  text-[#E85C0D]  hover:text-white  transition-all duration-300 
+}
+.big_link a{
+  @apply text-[18px]
+}
+.big_cards img{
+   @apply lg:mr-[-200px] lg:mb-[-200px] w-full lg:w-[480px]
+}

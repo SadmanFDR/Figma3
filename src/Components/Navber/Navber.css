@@ -1,0 +1,28 @@
+.sadman_nav{
+   @apply mt-[64px] lg:block hidden
+}
+.main_nav{
+   @apply flex justify-between items-center
+}
+.menu ul{
+   @apply flex gap-10
+}
+.logo_img img{
+   @apply w-[135px]
+}
+.menu ul li{
+   @apply flex items-center
+}
+.menu_link {
+   @apply flex justify-center items-center gap-4
+}
+.menu_link{
+   @apply py-2 bg-[#E85C0D] px-6
+}
+.menu ul li a {
+   @apply hover:text-[#E85C0D] transition-all duration-300
+   text-[#000]
+}
+.menu_link a{
+   @apply text-white
+}

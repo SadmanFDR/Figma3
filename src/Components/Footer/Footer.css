@@ -1,0 +1,40 @@
+.deep_flex{
+   @apply lg:mt-[300px] bg-[#F5F8FA]
+}
+.here_img_text{
+   @apply flex justify-between flex-wrap
+}
+.footer_text{
+   @apply flex flex-col lg:mt-[100px] mt-10
+}
+.footer_text p{
+   @apply w-full lg:w-[350px] font-serif text-[16px] font-medium 
+}
+.footer_text h2{
+   @apply text-[20px] lg:text-[30px] font-Agbalumo font-bold mt-4 mb-6
+ }
+ .here_img_text img{
+   @apply w-full  lg:mt-[-130px] lg:w-[720px] mt-6
+ }
+ .footer_big_link{
+   @apply flex gap-2 bg-[#E85C0D] items-center px-3 text-[#fff] hover:text-[#000] rounded-lg transition-all duration-300 hover:bg-[#FF9900] py-2 lg:mt-[32px] mt-5 justify-center w-[170px]
+ }
+
+ .footer_flex{
+   @apply bg-[#263640] pt-6 lg:pt-[60px] pb-5 lg:pb-10
+ }
+ .footer_content{
+   @apply flex justify-between flex-wrap gap-4
+ }
+ .footer_content img{
+   @apply w-[135px] h-10
+ }
+ .tttttttttext{
+   @apply flex lg:gap-[144px] flex-wrap gap-2
+ }
+.tttttttttext .text h4{
+   @apply font-Agbalumo font-bold text-[16px] text-white
+}
+.tttttttttext .text p{
+   @apply text-[16px] text-white font-serif font-normal w-full lg:w-[157px]
+}
